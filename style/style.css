@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+  }
+.img-fluid {
+      width: 100%;
+  }
+.logo-image {
+    margin-top: 2px;
+    width: 268px;
+    height: 48px;
+}
+#e-opstestvo {
+    width: 100%;
+    height: auto;
+}
+.follow_us_on {
+    margin-left: 185px;
+    margin-top: 8px;
+}
+
+.container > .row > .col-md-3.test > a > img:hover {
+    /* content:url("assets/images/image_1_hover.png") no-repeat; */
+    background-color: blueviolet;
+}
+.col-sm-12 {
+    width: 100%;
+}
+.container-fluid .row .col-md-12 img {
+    height: 20rem;
+}
+
+/* .container > .row > .col-md-3 > a.mediumi_za_demokratija:hover {
+    background: url("assets/images/image_1_hover.png") no-repeat;
+}  */
+hr {
+    background-color: black;
+    margin-bottom: 0rem !important;
+}
+p.privacy_policy {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 60px;
+}
+.container .row .col-md-5.where a img {
+    width: 25rem;
+}
+.container .row .col-md-2 a img.lorem_ipsum.img-fluid {
+    width: 10rem;
+    height: 23rem;
+}
+.container .row .col-md-5.hakaton a img {
+    width: 29rem;
+}
+footer {
+    background-color: rgb(233, 218, 152);
+    width: 100%;
+}
+
+/* #mediumi_za_demokratija:hover {
+    background-image: url("assets/images/image_1_hover");
+} */
+/* .fa-search {
+    margin-right: 40px;
+} */
+/* .mediumski_proekti {
+    float: right;
+    top: 0;
+} */
+.mediumski_proekti {
+    float: right;
+    margin-bottom: 0rem !important;
+}
+
+.row.equal-cols {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .row.equal-cols:before,
+  .row.equal-cols:after {
+    display: block;
+  }
+  
+  .row.equal-cols > [class*='col-'] {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .row.equal-cols > [class*='col-'] > * {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto; 
+  }
+
+@media screen and (max-width: 768px) {
+    .container > .row > .col-md-2 > a > img {
+        width: 100% !important;
+    }
+  } 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container > .row > .col-md-2 > a > img {
+        margin-top: 0;
+    }
+    .container > .row > .hakaton > a > img {
+        height: 100%;
+    }
+    .container > .row > .where > a > img {
+        height: 100%;
+    }
+    .container > .partneri {
+        height: 30%;
+    }
+    .navbar {
+        display: block;
+    }
+  }
+@media screen and (max-width: 375px) {
+    .mediumski_proekti {
+        float: none;
+    }
+    nav button {
+        margin-top: 8px;
+    }
+    .container .row p {
+        margin-left: 1rem
+    }
+  }
+@media screen and (min-width:1024px) {
+    .container .row p.follow_us_on {
+        margin-left: 9rem;
+    }
+  }
+@media screen and (min-width:990px) and (max-width:1200px){
+    nav.navbar {
+        /* display: block; */
+        display: inline-block;
+    }
+}  

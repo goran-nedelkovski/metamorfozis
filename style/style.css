@@ -1,18 +1,142 @@
-@font-face {
+/* @font-face {
     font-family: 'Roboto';
     src: url('roboto.eot'); /* IE9 Compat Modes */
-    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('roboto.woff') format('woff'), /* Modern Browsers */
-    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+    /* src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    /* url('roboto.woff') format('woff'), /* Modern Browsers */
+    /* url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    /* url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  /* } */  
+
+  @font-face {
+    font-family: 'IBMPLEXMono-Bold';
+    src: url('../assets/fonts/IBMPlexMono-Bold.ttf');
   }
+  @font-face {
+    font-family: 'IBMPLEXMono-Medium';
+    src: url('../assets/fonts/IBMPlexMono-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'IBMPLEXMono-Regular';
+    src: url('../assets/fonts/IBMPlexMono-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'IBMPLEXMono-SemiBold';
+    src: url('../assets/fonts/IBMPlexMono-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Black';
+    src: url('../assets/fonts/Roboto-Black.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url('../assets/fonts/Roboto-BlackItalic.ttf');
+  }
+  @font-face {
+    font-family: 'roboto-bold-condensed_[allfont.net]';
+    src: url('../assets/fonts/roboto-bold-condensed_[allfont.net].ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../assets/fonts/Roboto-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url('../assets/fonts/Roboto-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Condensed';
+    src: url('../assets/fonts/Roboto-Condensed.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Italic';
+    src: url('../assets/fonts/Roboto-Italic.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Light';
+    src: url('../assets/fonts/Roboto-Light.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('../assets/fonts/Roboto-LightItalic.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../assets/fonts/Roboto-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url('../assets/fonts/Roboto-MediumItalic.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../assets/fonts/Roboto-Thin.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url('../assets/fonts/Roboto-ThinItalic.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url('../assets/fonts/RobotoCondensed-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed-BoldItalic';
+    src: url('../assets/fonts/RobotoCondensed-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed-Italic';
+    src: url('../assets/fonts/RobotoCondensed-Italic.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url('../assets/fonts/RobotoCondensed-Light.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed-LightItalic';
+    src: url('../assets/fonts/RobotoCondensed-LightItalic.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url('../assets/fonts/RobotoCondensed-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoMono-Italic-VariableFont_wght';
+    src: url('../assets/fonts/RobotoMono-Italic-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: 'RobotoMono-VariableFont_wght';
+    src: url('../assets/fonts/RobotoMono-VariableFont_wght.ttf');
+  }
+
+.programs-title {
+    font-family: 'IBMPLEXMono-SemiBold';
+    /* font-size: 29pt; */
+}
+.new-activities {
+    font-family: 'IBMPLEXMono-SemiBold';
+}
+.blog {
+    font-family: 'IBMPLEXMono-SemiBold';
+}
+.partners-donators {
+    font-family: 'IBMPLEXMono-SemiBold';
+}
+.nav-link {
+    font-family: 'IBMPLEXMono-SemiBold';
+    color: #111;
+    /* font-size: 20pt; */
+}
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-  }
+    /* font-size: 48px; */
+}
 .card {
     width: 100%;
-  }
+}
 .right-inner-addon i {
     position: absolute;
     right: 119px;
@@ -39,10 +163,13 @@ input.form-control {
     height: auto;
 }
 .follow_us_on {
-    margin-left: 185px;
+    margin-left: 3rem;
     margin-top: 8px;
 }
-
+#navbarSupportedContent {
+    height: 1.0625rem;
+    margin-left: 1.1875rem;
+}
 .container > .row > .col-md-3.test > a > img:hover {
     /* content:url("assets/images/image_1_hover.png") no-repeat; */
     background-color: blueviolet;
@@ -53,7 +180,6 @@ input.form-control {
 .container-fluid .row .col-md-12 img {
     height: 20rem;
 }
-
 /* .container > .row > .col-md-3 > a.mediumi_za_demokratija:hover {
     background: url("assets/images/image_1_hover.png") no-repeat;
 }  */
@@ -93,6 +219,7 @@ footer {
     top: 0;
 } */
 .mediumski_proekti {
+    font-family: 'IBMPLEXMono-SemiBold';
     float: right;
     margin-bottom: 0rem !important;
 }
@@ -170,7 +297,7 @@ footer {
   }
 @media screen and (min-width:1024px) {
     .container .row p.follow_us_on {
-        margin-left: 9rem;
+        margin-left: 7rem;
     }
   }
 @media screen and (min-width:990px) and (max-width:1200px){
